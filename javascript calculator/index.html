@@ -1,0 +1,57 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<div class = "text-center">
+  <h1>Javascript Calculator</h1>
+  <h2>By: Yeo Wang</h2>
+  
+  </br>
+
+  <div id = "calcShow">
+    <div class = "container-fluid">
+    <form>
+    <input type = 'text' id = 'display' disabled>
+      </form>
+    </div>
+    <hr/>
+    
+</div>
+  
+  <div class = "text-center" id = "actualCalculator">
+    
+    <form>  
+      
+    <input type = "button" value = 'C' class = "btn btn-danger btn-lg formalize" id = "keys" onclick = 'show("C")'>
+    <input type = "button" value = '<-' class = "btn btn-danger btn-lg formalize" id = "keys" onclick = 'redo()'>
+    <input type = "button" value = '/' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("/")'>
+    <input type = "button" value = '*' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("*")'>
+    
+    </br>
+  
+    <input type = "button" value = '7' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("7")'>
+    <input type = "button" value = '8' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("8")'>
+    <input type = "button" value = '9' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("9")'>
+    <input type = "button" value = '-' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("-")'>
+  
+    </br>
+
+    <input type = "button" value = '4' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("4")'>
+    <input type = "button" value = '5' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("5")'>
+    <input type = "button" value = '6' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("6")'>
+    <input type = "button" value = '+' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("+")'>
+
+    </br>
+
+    <input type = "button" value = '1' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("1")'>
+    <input type = "button" value = '2' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("2")'>
+    <input type = "button" value = '-' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("3")'>
+    <input type = "button" value = '.' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show(".")'>
+
+</br>
+
+<input type = "button" value = '0' class = "btn btn-primary btn-lg formalize" id = "keys" onclick = 'show("0")'>
+<input type = "button" value = '=' class = "btn btn-primary btn-lg formalize" id = "calculate" onclick = 'equal()'>
+  
+</form>
+  </div>
+  
+
